@@ -1,0 +1,19 @@
+//3 3
+#include<iostream>
+using namespace std;
+int main()
+{
+    int m,n,x;
+    
+    cin>>m>>n;
+    if(m>=0 && n>=0)
+     x=m*n;
+     
+     if(x%2==0)
+     cout<<x/2<<endl;
+     else if(x%2==1)
+     cout<<(x/2)<<endl;
+     
+     return 0;
+    
+}
