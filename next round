@@ -1,0 +1,23 @@
+/* 8 5
+10 9 8 7 7 7 5 5*/
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,i,w,m=0;
+    cin>>n>>w;
+    int arr[n+1];
+    for(i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+    int scr= arr[w-1];
+    for(i=0;i<n;i++)
+    {  // cout<<m;
+        if(arr[i]>=scr&& arr[i]!=0)
+        m+=1;
+        
+    }
+    cout<<m;
+    return 0;
+}
